@@ -1,0 +1,160 @@
+p {
+  font-family: 'Amatic SC', cursive;
+}
+
+.sessao1 {
+  background-color: #94B99C;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+}
+
+.tittle {
+  font-size: 108px;
+  color: white;
+  margin-right: 800px;
+}
+
+.planet {
+  width: 94px;
+  height: 94px;
+}
+
+.lupa {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  background-color: #DFEFDC;
+  margin: 0;
+  padding: 0;
+}
+
+.lupa {
+  width: 30px;
+  height: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.icon-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+}
+
+.hamburguer {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.lupa-container {
+  position: relative;
+}
+
+
+.rodape {
+  background-color: #94B99C;
+  padding: 16px 0;
+  text-align: left;
+  color: white;
+  display: flex;
+  
+}
+
+.rodape p {
+  font-size: 28px;
+  color: black;
+  margin: 0;
+  margin-left: 2px;
+}
+
+
+.nova-sessao {
+  background-color: #CDB69C;
+  margin: 10px 46px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nova-sessao p {
+  color: black;
+  font-size: 35px;
+  margin: 0;
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid black;
+  padding: 0 30px;
+  gap: 6px;
+}
+
+.emoji {
+  width: 40px;
+  height: auto;
+  margin-right: 47px;
+}
+
+.porcentagem {
+  width: 20px;
+  height: auto;
+  margin-right: 20px;
+}
+.bolinho{
+  width: 540px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.foods{
+  display: flex;
+  justify-content: space-around;
+}
+.food p{
+  font-size: 30px;
+  margin: 0;
+}
+
+.rodape img{
+  width: 40px;
+  height: 40px;
+  margin: 0 6px;
+}
+.food img{
+  width: 300px;
+  height: 300px;
+}
+.rodape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px; 
+  background-color: #94B99C;
+  text-align: center;
+  padding-top: 20px;
