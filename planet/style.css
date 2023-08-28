@@ -1,21 +1,29 @@
-p {
+.tittle, .options p, .rodape p{
   font-family: 'Amatic SC', cursive;
+}
+
+.food p{
+  font-size: 16px;
+  margin: 0;
 }
 
 .sessao1 {
   background-color: #94B99C;
   height: 100px;
+  padding: 6px;
+}
+
+.menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
-  position: relative;
+  height: 100px;
 }
 
 .tittle {
-  font-size: 108px;
+  font-size: 90px;
   color: white;
-  margin-right: 800px;
+  margin: 0;
 }
 
 .planet {
@@ -48,7 +56,6 @@ body {
 }
 
 .icon-container {
-  position: absolute;
   top: 0;
   right: 0;
   display: flex;
@@ -79,7 +86,7 @@ body {
   text-align: left;
   color: white;
   display: flex;
-  
+
 }
 
 .rodape p {
@@ -91,13 +98,10 @@ body {
 
 
 .nova-sessao {
-  background-color: #CDB69C;
   margin: 10px 46px;
   display: flex;
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 4px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: stretch;
+  justify-content: center;
 }
 
 .nova-sessao p {
@@ -110,51 +114,67 @@ body {
 .options {
   display: flex;
   align-items: center;
-  border-right: 1px solid black;
-  padding: 0 30px;
+  padding: 6px 30px;
   gap: 6px;
+  background-color: #CDB69C;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+.options p{
+  font-size: 16px;
+}
+
+.ultimo {
+  border-right: 1px solid black;
+  border-radius: 0 10px 10px 0;
+}
+
+.primeiro {
+  border-radius: 10px 0 0 10px;
 }
 
 .emoji {
   width: 40px;
   height: auto;
-  margin-right: 47px;
+  margin-right: 6px;
 }
 
 .porcentagem {
   width: 20px;
   height: auto;
-  margin-right: 20px;
+  margin-right: 6px;
 }
-.bolinho{
+
+.bolinho {
   width: 540px;
   height: auto;
   margin-right: 20px;
 }
 
-.foods{
+.foods {
   display: flex;
   justify-content: space-around;
 }
-.food p{
-  font-size: 30px;
-  margin: 0;
-}
 
-.rodape img{
+.rodape img {
   width: 40px;
   height: 40px;
   margin: 0 6px;
 }
-.food img{
-  width: 300px;
-  height: 300px;
+
+.food img {
+  width: 250px;
+  height: 250px;
 }
+
 .rodape {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 45px; 
+  height: 45px;
   background-color: #94B99C;
   text-align: center;
   padding-top: 20px;
+}
